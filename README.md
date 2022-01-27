@@ -12,3 +12,5 @@ To reproduce:
 - download repo
 - `dotnet tool restore`
 - `dotnet fsdocs watch --eval`
+
+The error is also reproducible via github actions, using .NET 5.0.404 on ubuntu: kmutagene.github.io/fsdocs-binding-bug-repro
